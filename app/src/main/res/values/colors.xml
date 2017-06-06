@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGrey">#EFEFEF</color>
+    <color name="colorSilver">#C0C0C0</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="answer_text_color">#00a4e4</color>
+    <color name="main_bkg_color">#146eb4</color>
+    <color name="dialog_bkg_color">#6a737b</color>
+    <color name="summit_bkg_color">#ff7200</color>
+
+    <!-- collection of background color in GAME playing screen -->
+    <array name="game_bkg_colors">
+        <item>#0099e5</item>
+        <item>#34bf49</item>
+        <item>#2b82ad</item>
+        <item>#205081</item>
+        <item>#7d3f98</item>
+        <item>#00a0af</item>
+        <item>#44c7f4</item>
+        <item>#629aa9</item>
+        <item>#f47721</item>
+        <item>#fbb034</item>
+        <item>#8a7967</item>
+        <item>#6a737b</item>
+        <item>#136ad5</item>
+        <item>#537b35</item>
+        <item>#7fbb00</item>
+        <item>#8ec06c</item>
+        <item>#ffb900</item>
+        <item>#cc7a00</item>
+        <item>#49a942</item>
+        <item>#9000f0</item>
+    </array>
+</resources>

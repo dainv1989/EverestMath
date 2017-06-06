@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:foreground="@color/colorBlack">
+
+    <LinearLayout
+        android:id="@+id/game_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_alignParentTop="true">
+
+        <ImageView android:id="@+id/game_speaker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_speaker"/>
+
+        <TextView android:id="@+id/game_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/game_timer_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/everest_timer"/>
+
+    <TextView android:id="@+id/game_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="1+1\n=2"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:id="@+id/game_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/game_answer1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="5sp"
+            android:text="0"
+            android:textSize="90sp"
+            android:textStyle="bold"
+            android:textColor="@color/answer_text_color"
+            android:background="@drawable/custom_button_bkg"/>
+        <TextView
+            android:id="@+id/game_answer2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="5sp"
+            android:text="0"
+            android:textSize="90sp"
+            android:textStyle="bold"
+            android:textColor="@color/answer_text_color"
+            android:background="@drawable/custom_button_bkg"/>
+    </LinearLayout>
+</RelativeLayout>

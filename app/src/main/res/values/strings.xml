@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Everest Math</string>
+
+    <string name="best_score_title">Best score</string>
+    <string name="best_score_summary">Best score local user can get</string>
+    <string name="sound_setting_title">Play game sound effect</string>
+
+    <string name="gameover_title">Game Over</string>
+    <string name="timeout_title">Time Out</string>
+    <string name="score_new">New</string>
+    <string name="score_best">Best</string>
+
+    <string name="summit_title">Congratulation!</string>
+    <string name="summit_desc">You are on top of the world</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/main_bkg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView android:id="@+id/main_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/main_logo" />
+
+        <ImageView android:id="@+id/main_play"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/buttom_height"
+            android:paddingTop="@dimen/button_padding_small"
+            android:paddingBottom="@dimen/button_padding_normal"
+            android:layout_below="@id/main_logo"
+            android:layout_marginBottom="@dimen/custom_margin"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:src="@drawable/ic_play"
+            android:background="@drawable/custom_button_bkg"/>
+
+        <ImageView
+            android:id="@+id/main_top_chart"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/buttom_height"
+            android:layout_below="@id/main_play"
+            android:layout_marginBottom="@dimen/custom_margin"
+            android:src="@drawable/ic_topchart"
+            android:background="@drawable/custom_button_bkg"/>
+
+        <ImageView
+            android:id="@+id/main_rate"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/buttom_height"
+            android:layout_below="@id/main_top_chart"
+            android:padding="@dimen/button_padding_small"
+            android:layout_marginBottom="@dimen/custom_margin"
+            android:src="@drawable/ic_rate"
+            android:background="@drawable/custom_button_bkg"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Dai Nguyen 2016"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

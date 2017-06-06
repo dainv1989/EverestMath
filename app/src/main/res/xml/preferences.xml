@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- this preference to store best core of local user can get
+         over life time of this application. This score will be submit to
+         Google game service if local user registered an account -->
+    <EditTextPreference
+        android:key="best_score"
+        android:summary="@string/best_score_summary"
+        android:title="@string/best_score_title"
+        android:numeric="integer"
+        android:defaultValue="0" />
+
+    <CheckBoxPreference
+        android:key="game_sound"
+        android:title="@string/sound_setting_title"
+        android:defaultValue="true"/>
+</PreferenceScreen>
