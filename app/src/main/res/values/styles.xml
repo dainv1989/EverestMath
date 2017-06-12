@@ -9,7 +9,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:typeface">monospace</item>
     </style>
-    
+
     <style name="DialogAnimation">
         <item name="android:windowEnterAnimation">@anim/dialog_in</item>
         <item name="android:windowExitAnimation">@anim/dialog_out</item>

@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
          * status (system notification) bar is displayed, so we need to hide it
          * at onResume function
          */
-        //hideBars();
+        hideBars();
         super.onResume();
     }
 

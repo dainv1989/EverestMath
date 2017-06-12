@@ -39,6 +39,7 @@
             android:layout_below="@id/main_play"
             android:layout_marginBottom="@dimen/custom_margin"
             android:src="@drawable/ic_topchart"
+            android:visibility="gone"
             android:background="@drawable/custom_button_bkg"/>
 
         <ImageView
@@ -58,7 +59,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="Dai Nguyen 2016"
+        android:text="Dai Nguyen 2017"
         android:textSize="14sp"
         android:textStyle="bold"
         android:textColor="@color/colorWhite"/>
